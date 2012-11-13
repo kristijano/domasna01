@@ -40,6 +40,8 @@ index2=a+1;
 
 cout<<"Pretprijatieto ima: "<<n<<" kamioni, koi vkupno pominale "<<zbirk<<" km, a potrosile "<<zbirg;
 cout<<" litri gorivo."<<endl;
+cout<<"Najekonomicen e "<<index1<<"ot kamion, a najmnogu pat pominal "<<index2<<"ot kamion."<<endl;
+
 cout<<endl;
 
 
