@@ -32,17 +32,21 @@ max=kilometri[0];
 for(int a=0; a<n; a++)
 {zbirk=zbirk+kilometri[a];
 
+prosekk=zbirk/n;
 if(kilometri[a]>max)
 max=kilometri[a];
 if(kilometri[a]==max)
 index2=a+1;
 }
 
+
+
 cout<<"Pretprijatieto ima: "<<n<<" kamioni, koi vkupno pominale "<<zbirk<<" km, a potrosile "<<zbirg;
 cout<<" litri gorivo."<<endl;
 cout<<endl;
 
-
+cout<<"Site kamioni zaedno, prosecno pominale "<<prosekk<< "km, i potrosile "<<prosekg;
+cout<<" litri gorivo prosecno."<<endl;
 
     cout<<endl;    
     system("PAUSE");
